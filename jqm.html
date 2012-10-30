@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <title>sLog Test</title>   
+        <link rel="stylesheet" href="jquery.mobile-1.1.1.css" />   
+        <script src="jquery-1.7.1.js"> </script>
+        <script src="jquery.mobile-1.1.1.js"></script>
+        <script src="slog.js"></script>
+
+        <script>
+            $( function() {
+                slog("hello, world.", 1);
+                slog("this is just for testing slog.");
+            });
+        </script>
+    </head>
+    <body>
+        <div id="main" data-role="page" id="home">
+            <div data-role="header" data-position="fixed">
+                <h3>slog test with jqm</h3>
+            </div> <!--end header--> 
+
+            <div data-role="content">
+                <h3>slog test with jqm</h3>
+            </div> <!--end of content-->
+
+            <div data-role="footer" data-position="fixed">
+                <h3>created by dsp</h3>
+            </div> <!--end of Footer -->            
+        </div> <!--end of page -->   
+    </body>
+</html>
