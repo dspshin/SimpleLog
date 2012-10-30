@@ -1,5 +1,7 @@
 /*
- sLog :
+ SimpleLog is for logging messages on mobile web browsers.
+ This module needs jQuery. Also it works with jQuery Mobile.
+ created by cybrshin@gmail.com
 */
 
 ;( function( $ ){
